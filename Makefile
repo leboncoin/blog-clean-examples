@@ -1,5 +1,7 @@
 TARGETS=bin/prog1
 
+$(shell env TARGETS="${TARGETS}" ./cleanup.sh >&2)
+
 all: ${TARGETS}
 .PHONY: clean
 
