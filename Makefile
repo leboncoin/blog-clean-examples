@@ -1,4 +1,4 @@
-TARGETS=bin/prog1
+TARGETS=bin/prog1 bin/prog2
 
 $(shell env TARGETS="${TARGETS}" ./cleanup.sh >&2)
 
